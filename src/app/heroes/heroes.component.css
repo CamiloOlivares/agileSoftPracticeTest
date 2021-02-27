@@ -1,0 +1,88 @@
+/* HeroesComponent's private CSS styles */
+.heroes {
+    margin: 0 0 2em 0;
+    list-style-type: none;
+    padding: 0;
+    width: max-content;
+    align-self: center;
+  }
+  
+  .heroes li {
+    cursor: pointer;
+    position: relative;
+    left: 0;
+    background-color: #EEE;
+    margin: .5em;
+    padding: .3em 0;
+    border-radius: 4px;
+  }
+  .heroes li:hover {
+    color: #2c3a41;
+    background-color: #e6e6e6;
+    left: .1em;
+  }
+  .heroes li.selected {
+    background-color: black;
+    color: white;
+  }
+  .heroes li.selected:hover {
+    background-color: #505050;
+    color: white;
+  }
+  .heroes li.selected:active {
+    background-color: black;
+    color: white;
+  }
+  
+
+  nav a {
+    padding: 1rem;
+    text-decoration: none;
+    margin-top: 10px;
+    display: inline-block;
+    background-color: #e8e8e8;
+    color: #3d3d3d;
+    border-radius: 4px;
+  }
+  
+  nav a:hover {
+    color: white;
+    background-color: #42545C;
+  }
+  nav a.active {
+    background-color: black;
+  }
+
+nav {
+  padding:1rem;
+}
+
+input {
+  padding: 0.5rem;
+}
+div {
+  padding:1rem;
+}
+
+button{
+  padding:0.5rem;
+}
+
+.img-cont{
+  align-self: center;
+}
+
+img {
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  align-self: center;
+  display: block;
+  height: 25em;
+  width: 25em;
+}
+
+.nombre{
+  text-align: center;
+  align-self: center;
+}

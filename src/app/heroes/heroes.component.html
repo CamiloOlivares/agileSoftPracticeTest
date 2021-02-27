@@ -1,0 +1,31 @@
+<nav>
+  <a (click)="puedeVolar()">Puede volar</a>
+  <a (click)="noPuedeVolar()">No puede volar</a>
+  <a (click)="clear()">Todos</a>
+</nav>
+
+<div>
+  <input placeholder="buscar un heroe..." #heroName/>
+  <button (click)="findHero(heroName.value)" >Buscar</button>
+</div>
+
+<ul class="heroes">
+  <li *ngFor="let hero of heroes">
+    <div routerLink="/detail/{{hero.id}}">
+      <img [src]="hero.avatarURL"/>
+      <br>
+      <div class="nombre">
+        <b >
+          {{hero.nombre}}
+        </b>
+        <p >
+          {{hero.nombreReal}}
+        </p>
+      </div>
+    </div> 
+  </li>
+</ul>
+
+
+
+

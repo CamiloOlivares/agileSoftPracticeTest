@@ -1,0 +1,13 @@
+.mensaje{
+    padding-left: 0.8em;
+}
+
+.mensaje-cont{
+    font-size: large;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+button{
+    padding: 1em;
+}

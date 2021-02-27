@@ -1,0 +1,16 @@
+<div *ngIf="hero">
+
+    <h2>{{hero.nombre | uppercase}} Details</h2>
+    <img [src]="hero.avatarURL"/>
+    <div><span>id: </span>{{hero.id}}</div>
+    <div>
+      <span>Nombre de SuperHeroe: </span>{{hero.nombre}}
+    </div>
+    <div>
+      <span>Nombre real: </span>{{hero.nombreReal}}
+    </div>
+    <div>
+      <span>Habilidades: </span>{{hero.habilidades}}
+    </div>
+    <button (click)="goBack()">Regresar</button>
+  </div>
