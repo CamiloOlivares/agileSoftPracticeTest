@@ -1,6 +1,8 @@
-# TestApp
+# AgilesSoft: Prueba técnica para iniciar práctica profesional
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.2.
+Este proyecto fue generado con [Angular CLI](https://github.com/angular/angular-cli) version 11.2.2.
+
+El archivo README fue generado automáticamente por el CLI de Angular
 
 ## Development server
 
